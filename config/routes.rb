@@ -3,4 +3,5 @@ Rails.application.routes.draw do
   get "/fortune_path", controller: "my_examples", action:"fortune_method"
   get "/numbers_path", controller: "my_examples", action: "random_numbers"
   # get "/visits_path", controller: "my_examples", action: "visits_method"
+  # get "/lyrics_path", controller: "my_examples", action: lyrics_method
 end
